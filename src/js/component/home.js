@@ -1,21 +1,18 @@
 import React from "react";
 import Card from "./Card";
-import SecondsCounter from "./SecondsCounter";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+//import SecondsCounter from "./SecondsCounter";
 
 //create your first component
 export function Home() {
 	return (
-		<div className="d-flex justify-content-start">
+		<div className="d-flex justify-content-center">
 			<Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+			<Card />
+			<Card />
+			<Card />
+			<Card />
+			<Card />
+			<Card />
 		</div>
 	);
 }
