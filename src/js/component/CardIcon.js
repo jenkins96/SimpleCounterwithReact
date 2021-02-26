@@ -1,17 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Card = props => {
+const CardIcon = props => {
 	return (
 		<div className="card mx-2 mt-2">
 			<div className="card-body">
-				<h4 className="card-title display-2"> {props.title}</h4>
+				<img src={props.icon} alt="Card image cap"></img>
 			</div>
 		</div>
 	);
 };
-
-Card.propTypes = {
-	title: PropTypes.number
+CardIcon.propTypes = {
+	icon: PropTypes.string
 };
-export default Card;
+export default CardIcon;
